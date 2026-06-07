@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+
+# Local caches and generated temp files
+.cache/
+tmp/
+temp/
+*.tmp
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local data folders
+data/
+datasets/
+downloads/
